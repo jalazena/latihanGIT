@@ -6,5 +6,26 @@
 <body>
     <h1>Latihan GIT</h1>
     <p>Tingkatkan skill versioningmu di sini</p>
+    <button onclick="cekProgram()">Cek Program</button>
+    <div id="progeram" style="visibility: hidden;">
+        <table border="1">
+            <tr>
+                <td>Program</td>
+                <td>Waktu</td>
+                <td>Daftar Program</td>
+            </tr>
+            <tr>
+                <td>GIT Personal Project</td>
+                <td>14 Oktober 2021</td>
+                <td><button>Daftar</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function cekProgram() {
+            document.getElementById("program").style.visibility = "visible"
+        }
+    </script>
 </body>
 </html>
